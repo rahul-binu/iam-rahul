@@ -1,15 +1,18 @@
 import React from "react";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Header from "./assets/components/Header";
+import Home from "./assets/components/main/Home";
+import Footer from "./assets/components/Footer";
 
 const App = () => {
     return (
-        <div className="row m-5 p-4 text-success bg-dark">
-            <div className="col ">
-                <h3>WELCOME TO MY WEBSITE</h3>
-            </div>
-            <div className="col">
-                <h3>IAM RAHUL BINU</h3>
-            </div>
-        </div>
+        <BrowserRouter>
+            <Header />
+            <Routes>
+                <Route path='/' element={<Home />}></Route>
+            </Routes>
+            <Footer />
+        </BrowserRouter>
     );
 }
 
