@@ -7,7 +7,7 @@ const Home = () => {
                         <div className="row mt-4">
                 <div className="col">
                     <img id={styles.my_img}
-                        src="images/2.jpg" alt="" />
+                        src="images/3.jpg" alt="" />
                 </div>
             </div>
             <div className="row mt-4">
