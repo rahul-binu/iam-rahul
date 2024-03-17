@@ -1,11 +1,100 @@
+* {
+    font-family: serif;
+}
+
 #my_img {
     width: 100%;
     height: auto;
 }
+
+#profile_pic {
+    height: 25em;
+    width: 25em;
+    border-radius: 50%;
+}
+
+#aboutMe {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#my_resume {
+    background-color: rgb(58, 58, 183);
+    color: whitesmoke;
+    border-radius: 50%;
+    height: 8em;
+    width: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+#my_work {
+    background-color: rgb(53, 117, 53);
+    color: whitesmoke;
+    border-radius: 50%;
+    height: 8em;
+    width: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+#contact_me {
+    background-color: rgb(201, 71, 71);
+    color: whitesmoke;
+    border-radius: 50%;
+    height: 8em;
+    width: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+#my_resume:hover {
+    box-shadow: 0px 1px 15px blue;
+    background-color: rgb(58, 58, 183);
+}
+
+#my_work:hover {
+    box-shadow: 0px 1px 15px green;
+   
+}
+
+#contact_me:hover {
+    box-shadow: 0px 1px 15px red;
+}
+
+#introduction h1 {
+    font-size: 7em;
+}
+
+#introduction h3 {
+    font-size: 2em;
+}
+
+#description {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
 
 @media (max-width: 767px) {
     #my_img {
         width: 100%;
         height: auto;
     }
+
+    /* #profile_pic {
+        margin: 50px;
+        height: 25em;
+        width: 25em;
+        border-radius: 0%;
+    } */
 }
