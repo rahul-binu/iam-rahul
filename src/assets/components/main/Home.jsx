@@ -71,7 +71,7 @@ const Home = () => {
                 </div>
             </div> */}
 
-            <div className="container m-5" id="work-container">
+            <div className="container" id="work-container">
                 < WorksPage />
             </div>
 
