@@ -2,6 +2,11 @@ import React from "react";
 import styles from '../../styles/Home.module.css';
 
 const Home = () => {
+
+    const handleOpenResume = () => {
+        window.open('/pdf/Rahul Binu Resume (2).pdf', '_blank');
+    };
+
     return (
         <div className="container">
 
@@ -20,7 +25,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="row mt-3">
-                        <div className="col-3 m-3" id={styles.my_resume}>
+                        <div className="col-3 m-3" id={styles.my_resume} onClick={handleOpenResume}>
                             <h5>My Resume</h5>
                         </div>
                         <div className="col-3 m-3" id={styles.my_work}>
@@ -39,7 +44,7 @@ const Home = () => {
             </div>
             
 
-            <div className="row mt-4">
+            {/* <div className="row mt-4">
                 <div className="col">
                     <img id={styles.my_img}
                         src="images/3.jpg" alt="" />
@@ -51,7 +56,7 @@ const Home = () => {
                     <img id={styles.my_img}
                         src="images/ajySelfyTest.jpg" alt="" />
                 </div>
-            </div>
+            </div> */}
 
         </div>
     );
