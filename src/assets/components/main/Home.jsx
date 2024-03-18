@@ -1,5 +1,6 @@
 import React from "react";
 import styles from '../../styles/Home.module.css';
+import WorksPage from "./WorksPage";
 
 const Home = () => {
 
@@ -7,12 +8,17 @@ const Home = () => {
         window.open('/pdf/Rahul Binu Resume (2).pdf', '_blank');
     };
 
+    function scrollToWork() {
+        var targetDiv = document.getElementById('work-container');
+        targetDiv.scrollIntoView({ behavior: 'smooth' });
+    }
+
     return (
         <div className="container">
 
-            <div className="row mt-3">
+            <div className="row mt-5 mb-5">
                 <div className="col-lg-5 md-12 sm-12" style={{
-                    justifyContent:'center',display:'flex'
+                    justifyContent: 'center', display: 'flex'
                 }}>
                     <img id={styles.profile_pic}
                         src="images/ajySelfyTest.jpg" alt="" />
@@ -25,24 +31,24 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="row mt-3">
-                        <div className="col-3 m-3" id={styles.my_resume} onClick={handleOpenResume}>
+                        <div className="col-lg-3 m-3" id={styles.my_resume} onClick={handleOpenResume}>
                             <h5>My Resume</h5>
                         </div>
-                        <div className="col-3 m-3" id={styles.my_work}>
-                            <h5>My Work</h5>
+                        <div className="col-lg-3 m-3" id={styles.my_work} onClick={scrollToWork}>
+                            <h5>My Works</h5>
                         </div>
-                        <div className="col-3 m-3"id={styles.contact_me}>
+                        <div className="col-lg-3 m-3" id={styles.contact_me}>
                             <h5>Connect me</h5>
                         </div>
                     </div>
                     <div className="row mt-3">
                         <div className="col" id={styles.description}>
                             <p>Hey there! I'm Rahul Binu, a passionate individual with a zest for life. I find joy in exploring new adventures, expressing my creativity through drawing, and immersing myself in various hobbies. With a penchant for reliability and trustworthiness, I bring dedication and enthusiasm to everything I do. Let's embark on a journey together!</p>
-                       </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            
+
 
             {/* <div className="row mt-4">
                 <div className="col">
@@ -57,6 +63,10 @@ const Home = () => {
                         src="images/ajySelfyTest.jpg" alt="" />
                 </div>
             </div> */}
+
+            <div className="container" id="work-container">
+                <WorksPage />
+            </div>
 
         </div>
     );
