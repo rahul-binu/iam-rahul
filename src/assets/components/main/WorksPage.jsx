@@ -1,7 +1,18 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import styles from '../../styles/WorksPage.module.css';
 
 const WorksPage = () => {
+    const [fadeIn, setFadeIn] = useState(false);
+
+    useEffect(() => {
+        // Use setTimeout to delay the animation start
+        const timeout = setTimeout(() => {
+            setFadeIn(true);
+        }, 100);
+
+        // Clear the timeout on component unmount to avoid memory leaks
+        return () => clearTimeout(timeout);
+    }, []);
 
     const works = [
         {
@@ -18,11 +29,10 @@ const WorksPage = () => {
             description: 'Description of work 3',
             imageUrl: '/path/to/work2-image.jpg',
         },
-
     ];
 
     return (
-        <div className='m-5'>
+        <div className={`${styles.fade_in} ${fadeIn ? styles.active : ''}`}>
             <h1>My Works</h1>
 
             <div className="row" id={styles.row}>
@@ -36,7 +46,6 @@ const WorksPage = () => {
                     </div>
                 ))}
             </div>
-
         </div>
     );
 };

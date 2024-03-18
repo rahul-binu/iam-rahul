@@ -14,7 +14,15 @@ const Home = () => {
     }
 
     return (
-        <div className="container">
+        <div className={`${styles.container} container`} style={{
+            // backgroundColor: '#000', 																  /* Set initial properties */
+            // backgroundColor: '#000',
+            // color: '#fff',
+            // textAlign: 'center',
+            // opacity: 0,
+
+            // animation: 'fadeIn 2s ease-in'
+        }}>
 
             <div className="row mt-5 mb-5">
                 <div className="col-lg-5 md-12 sm-12" style={{
@@ -49,7 +57,6 @@ const Home = () => {
                 </div>
             </div>
 
-
             {/* <div className="row mt-4">
                 <div className="col">
                     <img id={styles.my_img}
@@ -64,8 +71,8 @@ const Home = () => {
                 </div>
             </div> */}
 
-            <div className="container" id="work-container">
-                <WorksPage />
+            <div className="container m-5" id="work-container">
+                < WorksPage />
             </div>
 
         </div>

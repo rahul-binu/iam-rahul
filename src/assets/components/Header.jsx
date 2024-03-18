@@ -1,7 +1,15 @@
 import React from 'react';
 import styles from '../styles/Header.module.css';
+import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
+
+    const navigateTo = useNavigate();
+
+    function handleHomeClick() {
+        navigateTo('/');
+    }
+
     return (
         <header className={`${styles.nav} ${styles.p3}`}> {/* Use backticks to concatenate multiple class names */}
             <div className={styles.container}>
@@ -10,7 +18,7 @@ const Header = () => {
                         <nav>
                             <ul className={`${styles.nav} ${styles.justifyContentBetween} ${styles.alignItemsCenter}`}>
                                 <li className={`${styles.navItem} ${styles.textStart}`}>
-                                    <h1>Hi, I am Rahul Binu</h1>
+                                    <h1 onClick={handleHomeClick}>Hi, I am Rahul Binu</h1>
                                 </li>
                                 <li className={styles.navItem}>
                                     <a href="#about">About</a>
