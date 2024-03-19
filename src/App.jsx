@@ -7,6 +7,8 @@ import FadeInComponent from "./assets/components/main/FadeInComponent";
 import Page from "./assets/components/uitils/Spinner";
 import ContactPage from "./assets/components/main/Contact";
 
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 const App = () => {
     return (
         <BrowserRouter>

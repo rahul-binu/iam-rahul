@@ -40,7 +40,7 @@ const ThisWeek = () => {
                     // using return becouse the arrow function 
                     //to avoid return use () insted of {}
                     return (
-                        <div className="col-3 mb-5" id={styles.card_col} key={index}>
+                        <div className="col-lg-3 md-3 sm-6 mb-5" id={styles.card_col} key={index}>
                             <div className={`card p-4 ${styles.card}`}>
                                 <h3>{weekData.title}</h3>
                                 <p>{weekData.description}</p>

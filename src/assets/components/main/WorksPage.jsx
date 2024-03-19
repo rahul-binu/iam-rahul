@@ -23,11 +23,11 @@ const WorksPage = () => {
     return (
         <div>
             <h1 className='m-5'>My Works</h1>
-            <hr />
+            {/* <hr /> */}
 
             <div className="row mt-3" id={styles.row}>
                 {works.map((work, index) => (
-                    <div className="col-lg-4 md-6 sm-12 mb-5 mt-5" key={index} id={styles.card_col}>
+                    <div className="col-lg-4 md-6 sm-12 mb-5 mt-2" key={index} id={styles.card_col}>
                         <div className="card p-5" id={styles.card}>
                             <img src={work.imageUrl} alt={work.title} />
                             <h2>{work.title}</h2>
