@@ -1,6 +1,7 @@
 import React from "react";
 import styles from '../../styles/Home.module.css';
 import WorksPage from "./WorksPage";
+import ThisWeek from "./ThisWeek";
 
 const Home = () => {
 
@@ -70,6 +71,10 @@ const Home = () => {
                         src="images/ajySelfyTest.jpg" alt="" />
                 </div>
             </div> */}
+
+            <div className="container-fluid">
+                <ThisWeek />
+            </div>
 
             <div className="container" id="work-container">
                 < WorksPage />

@@ -8,6 +8,13 @@ header {
     color: #022a34;
 }
 
+/* .fixedTop {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; Adjust z-index as needed to ensure the header appears above other content
+} */
+
 .container {
     width: 90%;
     margin: 0 auto;

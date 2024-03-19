@@ -10,8 +10,12 @@ const Header = () => {
         navigateTo('/');
     }
 
+    function handleContactClick(){
+        navigateTo('/contact')
+    }
+
     return (
-        <header className={`${styles.nav} ${styles.p3}`}> {/* Use backticks to concatenate multiple class names */}
+        <header className={`${styles.nav} ${styles.p3} ${styles.fixedTop}`}> {/* Use backticks to concatenate multiple class names */}
             <div className={styles.container}>
                 <div className={`${styles.row}${styles.p3}`}>
                     <div className={`${styles.col} ${styles.p3}`}>
@@ -21,13 +25,13 @@ const Header = () => {
                                     <h1 onClick={handleHomeClick}>Hi, I am Rahul Binu</h1>
                                 </li>
                                 <li className={styles.navItem}>
-                                    <a href="#about">About</a>
+                                    <a href="">About</a>
                                 </li>
                                 <li className={styles.navItem}>
-                                    <a href="#portfolio">Portfolio</a>
+                                    <a href="">Portfolio</a>
                                 </li>
-                                <li className={styles.navItem}>
-                                    <a href="#contact">Contact</a>
+                                <li className={styles.navItem} onClick={handleContactClick}>
+                                    <a href="">Contact</a>
                                 </li>
                             </ul>
                         </nav>
