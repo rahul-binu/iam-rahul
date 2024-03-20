@@ -5,7 +5,7 @@ import Home from "./assets/components/main/Home";
 import Footer from "./assets/components/Footer";
 import FadeInComponent from "./assets/components/main/FadeInComponent";
 import Page from "./assets/components/uitils/Spinner";
-import ContactPage from "./assets/components/main/Contact";
+import ContactPage from "./assets/components/main/ContactForm";
 
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 

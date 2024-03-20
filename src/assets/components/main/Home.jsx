@@ -2,6 +2,7 @@ import React from "react";
 import styles from '../../styles/Home.module.css';
 import WorksPage from "./WorksPage";
 import ThisWeek from "./ThisWeek";
+import Contact from "./Contact";
 
 const Home = () => {
 
@@ -70,7 +71,7 @@ const Home = () => {
                     <img id={styles.my_img}
                         src="images/ajySelfyTest.jpg" alt="" />
                 </div>
-            </div> */}
+            </div> */}           
 
             <div className="container-fluid">
                 <ThisWeek />
@@ -80,11 +81,9 @@ const Home = () => {
                 < WorksPage />
             </div>
 
-            <section className="hidden">
-                <h1>hello 2</h1>
-                <p> Lorem ipsum dolor sit amet.
-                </p>
-            </section>
+            <div className="container">
+                <Contact />
+            </div>
 
         </div>
     );
