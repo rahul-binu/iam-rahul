@@ -80,6 +80,12 @@ const Home = () => {
                 < WorksPage />
             </div>
 
+            <section className="hidden">
+                <h1>hello 2</h1>
+                <p> Lorem ipsum dolor sit amet.
+                </p>
+            </section>
+
         </div>
     );
 }
