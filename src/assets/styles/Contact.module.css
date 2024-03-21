@@ -2,6 +2,7 @@
 
 .mainDiv {
     display: flex;
+    overflow-y: auto;
 }
 
 .vDiv {
