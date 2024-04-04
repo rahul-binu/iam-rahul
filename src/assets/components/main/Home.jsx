@@ -15,6 +15,11 @@ const Home = () => {
         targetDiv.scrollIntoView({ behavior: 'smooth' });
     }
 
+    function scrollToConnect(){
+        var targetDiv = document.getElementById('connect-container');
+        targetDiv.scrollIntoView({ behavior: 'smooth' });
+    }
+
     return (
         <div className={`${styles.container} container`} style={{
             // backgroundColor: '#000', 																  /* Set initial properties */
@@ -26,7 +31,9 @@ const Home = () => {
             // animation: 'fadeIn 2s ease-in'
         }}>
 
-            <div className="row mt-5 mb-5">
+            <div className="row mt-5 mb-5" style={{
+                    // backgroundColor:'#000'
+                }}>
                 <div className="col-lg-5 md-12 sm-12" style={{
                     justifyContent: 'center', display: 'flex'
                 }}>
@@ -47,7 +54,7 @@ const Home = () => {
                         <div className="col-lg-3 m-3" id={styles.my_work} onClick={scrollToWork}>
                             <h5>My Works</h5>
                         </div>
-                        <div className="col-lg-3 m-3" id={styles.contact_me}>
+                        <div className="col-lg-3 m-3" id={styles.contact_me}  onClick={scrollToConnect}>
                             <h5>Connect me</h5>
                         </div>
                     </div>
@@ -81,7 +88,7 @@ const Home = () => {
                 < WorksPage />
             </div>
 
-            <div className="container">
+            <div className="container" id='connect-container'>
                 <Contact />
             </div>
 

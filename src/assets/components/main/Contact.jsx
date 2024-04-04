@@ -26,11 +26,11 @@ const Contact = () => {
         <div>
             <section>
                 <div className={`row- m-2 mb-4 ${styles.mainDiv}`}>
-                    <a href="">
+                    {/* <a href="">
                         <div className={`col- mx-2 p-2 ${styles.div1} ${styles.vDiv}`}>
                             <Icon.Whatsapp />
                         </div>
-                    </a>
+                    </a> */}
 
                     <a href="https://www.instagram.com/rahul._.binu/">
                         <div className={`col- mx-2 p-2 ${styles.div2} ${styles.vDiv}`}>

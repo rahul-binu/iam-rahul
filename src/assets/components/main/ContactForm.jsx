@@ -100,7 +100,7 @@ function ContactPage() {
                             <h5 className="modal-title" id="successModalLabel">Success</h5>
                         </div>
                         <div className="m-1">
-                            We will contact you shortly.
+                            I will respond shortly.
                         </div>
                         <div className="m-1 text-end">
                             <button type="button" className="btn btn-primary" onClick={closeModal}>OK</button>

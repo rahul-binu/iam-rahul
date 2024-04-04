@@ -10,10 +10,15 @@
     transition: opacity 1s, transform 1s;
     color: white;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     font-size: 45px;
+}
+
+.vDiv:hover {
+    transform: translateY(-10%);
+    background-color: black;
 }
 
 .div1 {
@@ -53,4 +58,10 @@
 .show {
     opacity: 1;
     transform: translate(0);
+}
+
+@media (max-width : 767px) {
+    .vDiv {
+        font-size: 30px;
+    }
 }

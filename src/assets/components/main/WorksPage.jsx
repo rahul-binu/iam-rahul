@@ -22,7 +22,7 @@ const WorksPage = () => {
 
     return (
         <div>
-            <h1 className='m-5'>My Works</h1>
+            <h1 className='m-5 mb-0'>My Works</h1>
             {/* <hr /> */}
 
             <div className="row mt-3" id={styles.row}>

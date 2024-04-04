@@ -29,7 +29,7 @@ const ThisWeek = () => {
 
     return (
         <div className="container">
-            <div className="row m-5">
+            <div className="row m-5 mb-1">
                 <h1>
                     What's New
                 </h1>
