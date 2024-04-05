@@ -1,0 +1,20 @@
+.introSection {
+    background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+    padding: 10rem 0 0 0;
+    height: 100%;
+}
+
+.description {
+    font-size: 25px;
+}
+
+#button {
+    background-color: rgba(255, 255, 255, 0.95);
+    color: #000000; /* Matching text color */
+}
+
+.img_box {
+    width: 80%;
+    height: 80%;
+    /* display: none; */
+}
