@@ -4,6 +4,7 @@ import WorksPage from "./WorksPage";
 import ThisWeek from "./ThisWeek";
 import Contact from "./Contact";
 import Welcome from "./Welcome";
+import Services from "./Services";
 
 const Home = () => {
 
@@ -25,6 +26,13 @@ const Home = () => {
         <>
             <div className="">
                 <Welcome />
+                <hr style={{
+                    color:'rgba(209, 34, 227, 0.95)'
+                }}/>
+            </div>
+
+            <div className="">
+                <Services />
             </div>
 
             <div className={`${styles.container} container`} style={{

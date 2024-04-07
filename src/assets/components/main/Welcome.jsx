@@ -10,7 +10,7 @@ const Welcome = () => {
                 <div className="container">
                     <div className="row align-items- text-white">
 
-                        <div className="col-md-6 intros text-start">
+                        <div className="col-md-6 intros text-start mb-5">
                             <h1 className="display-2">
                                 <span className="display-2--intro">Hey!, I'm Rahul</span>
                                 <span className="display-2--description lh-base">
@@ -24,7 +24,7 @@ const Welcome = () => {
                             </a>
                         </div>
 
-                        <div className="col-md-6 intros">
+                        <div className="col-md-6 intros ">
                             <div className={`video-box`}>
                                 <img src="/images/programmer.webp" alt="" className={`${styles.img_box}`} />
                             </div>
