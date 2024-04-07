@@ -10,9 +10,31 @@ const Header = () => {
         navigateTo('/');
     }
 
+    function handleWelocmeClick() {
+        // Get the target element
+        const welcomeDivDiv = document.getElementById('welcomeDiv');
+    
+        // Scroll to the target element
+        welcomeDivDiv.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    
     function handleContactClick() {
         navigateTo('/contact');
     }
+
+    function handleServiceClick() {
+        // Get the target element
+        const serviceDiv = document.getElementById('serviceDiv');
+        const targetPosition = serviceDiv.offsetTop - 60; // Adjust the offset as needed
+
+        // Scroll to the calculated position
+        window.scrollTo({
+            top: targetPosition,
+            behavior: 'smooth'
+        });
+    }
+    
 
     return (
         <Navbar expand="lg" className={`${styles.navbar} shadow position-fixed w-100`}>
@@ -24,9 +46,14 @@ const Header = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="justify-content-end mx-5 px-5" style={{ width: '100%' }}>
-                    <Nav.Link className={`text-light mx-2`}>
+                    <Nav.Link className={`text-light mx-2`} onClick={handleWelocmeClick}>
                         <p className={`${styles.links}`}>
                             Home
+                        </p>
+                    </Nav.Link>
+                    <Nav.Link className={`text-light mx-2`} onClick={handleServiceClick}>
+                        <p className={`${styles.links}`}>
+                            Services
                         </p>
                     </Nav.Link>
                     <Nav.Link className={'text-light mx-2'}>

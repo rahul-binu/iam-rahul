@@ -24,14 +24,14 @@ const Home = () => {
 
     return (
         <>
-            <div className="">
+            <div className="" id="welcomeDiv">
                 <Welcome />
                 <hr style={{
                     color:'rgba(209, 34, 227, 0.95)'
                 }}/>
             </div>
 
-            <div className="">
+            <div className="" id='serviceDiv'>
                 <Services />
             </div>
 
