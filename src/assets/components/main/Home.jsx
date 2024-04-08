@@ -27,8 +27,8 @@ const Home = () => {
             <div className="" id="welcomeDiv">
                 <Welcome />
                 <hr style={{
-                    color:'rgba(209, 34, 227, 0.95)'
-                }}/>
+                    color: 'rgba(209, 34, 227, 0.95)'
+                }} />
             </div>
 
             <div className="" id='serviceDiv'>
@@ -54,7 +54,7 @@ const Home = () => {
                         <img id={styles.profile_pic}
                             src="images/ajySelfyTest.jpg" alt="" />
                     </div>
-                    <div className="col-lg-7 md-12 sm-12" id={styles.aboutMe}>
+                    {/* <div className="col-lg-7 md-12 sm-12" id={styles.aboutMe}>
                         <div className="row" id={styles.introduction}>
                             <div className="col-12">
                                 <h1>Hello,</h1>
@@ -77,7 +77,7 @@ const Home = () => {
                                 <p>Hey there! I'm Rahul Binu, a passionate individual with a zest for life. I find joy in exploring new adventures, expressing my creativity through drawing, and immersing myself in various hobbies. With a penchant for reliability and trustworthiness, I bring dedication and enthusiasm to everything I do. Let's embark on a journey together!</p>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
 
                 {/* <div className="row mt-4">
@@ -94,19 +94,19 @@ const Home = () => {
                 </div>
             </div> */}
 
-                <div className="container-fluid">
-                    <ThisWeek />
-                </div>
-
-                <div className="container" id="work-container">
-                    < WorksPage />
-                </div>
-
-                <div className="container" id='connect-container'>
-                    <Contact />
-                </div>
-
             </div>
+            {/* <div className="container-fluid">
+                <ThisWeek />
+            </div>
+
+            <div className="container" id="work-container">
+                < WorksPage />
+            </div> */}
+
+            {/* <div className="container" id='connect-container'>
+                <Contact />
+            </div> */}
+
         </>
 
     );
