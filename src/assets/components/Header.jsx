@@ -34,6 +34,18 @@ const Header = () => {
             behavior: 'smooth'
         });
     }
+
+    function handleSkillClick() {
+        // Get the target element
+        const skillDiv = document.getElementById('skillDiv');
+        const targetPosition = skillDiv.offsetTop - 60; // Adjust the offset as needed
+
+        // Scroll to the calculated position
+        window.scrollTo({
+            top: targetPosition,
+            behavior: 'smooth'
+        });
+    }
     
 
     return (
@@ -54,6 +66,11 @@ const Header = () => {
                     <Nav.Link className={`text-light mx-2`} onClick={handleServiceClick}>
                         <p className={`${styles.links}`}>
                             Services
+                        </p>
+                    </Nav.Link>
+                    <Nav.Link className={`text-light mx-2`} onClick={handleSkillClick}>
+                        <p className={`${styles.links}`}>
+                            Skills
                         </p>
                     </Nav.Link>
                     <Nav.Link className={'text-light mx-2'}>

@@ -5,6 +5,7 @@ import ThisWeek from "./ThisWeek";
 import Contact from "./Contact";
 import Welcome from "./Welcome";
 import Services from "./Services";
+import Skill from "./Skill";
 
 const Home = () => {
 
@@ -33,6 +34,10 @@ const Home = () => {
 
             <div className="" id='serviceDiv'>
                 <Services />
+            </div>
+
+            <div className="mt-4" id="skillDiv">
+                <Skill />
             </div>
 
             <div className={`${styles.container} container`} style={{
