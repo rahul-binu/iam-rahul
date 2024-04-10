@@ -9,7 +9,11 @@ const Skill = () => {
                     <div class="section-title">
                         <h2 className="display-3 fw-bold text-center">Skills</h2>
                         <div className="heading-line mb-1"></div>
-                        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                        <p className="text-secondary fw-bold text-center">
+                            My skills encompass a wide range of programming languages and technologies,
+                            allowing me to tackle diverse challenges with confidence and precision. With a keen eye for detail and a passion for continuous learning,
+                            I excel at crafting innovative solutions that exceed expectations and drive success.
+                        </p>
                     </div>
 
                     <div class="row skills-content">
