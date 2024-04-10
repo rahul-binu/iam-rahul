@@ -19,14 +19,14 @@ const Header = () => {
     }
 
     
-    function handleContactClick() {
-        navigateTo('/contact');
-    }
+    // function handleContactClick() {
+    //     navigateTo('/contact');
+    // }
 
     function handleServiceClick() {
         // Get the target element
         const serviceDiv = document.getElementById('serviceDiv');
-        const targetPosition = serviceDiv.offsetTop - 60; // Adjust the offset as needed
+        const targetPosition = serviceDiv.offsetTop - 70; // Adjust the offset as needed
 
         // Scroll to the calculated position
         window.scrollTo({
@@ -38,7 +38,19 @@ const Header = () => {
     function handleSkillClick() {
         // Get the target element
         const skillDiv = document.getElementById('skillDiv');
-        const targetPosition = skillDiv.offsetTop - 60; // Adjust the offset as needed
+        const targetPosition = skillDiv.offsetTop - 70; // Adjust the offset as needed
+
+        // Scroll to the calculated position
+        window.scrollTo({
+            top: targetPosition,
+            behavior: 'smooth'
+        });
+    }
+
+    function handleContactClick() {
+        // Get the target element
+        const contactDiv = document.getElementById('contactDiv');
+        const targetPosition = contactDiv.offsetTop - 70; // Adjust the offset as needed
 
         // Scroll to the calculated position
         window.scrollTo({

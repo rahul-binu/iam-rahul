@@ -43,8 +43,8 @@ const Services = () => {
                                     In the realm of web development, I bring creativity and technical expertise to the table, crafting bespoke solutions that captivate audiences and elevate online presence.
                                     From intuitive user interfaces to seamless backend functionality, I design and develop websites that reflect the unique brand identity and objectives of each client. By staying abreast of the latest technologies and design trends, I ensure that every website I create delivers an exceptional user experience and drives meaningful engagement.
                                 </p>
-                                {/* <button type="button" className="rounded-pill btn-rounded border-primary">Learn more
-                                    <span><i className="fas fa-arrow-right"></i></span>
+                                {/* <button type="button" className="rounded-pill btn-rounded border-primary py-2 px-4">Find what
+                                    <span><Icon.ArrowRight /></span>
                                 </button> */}
                             </div>
                         </div>

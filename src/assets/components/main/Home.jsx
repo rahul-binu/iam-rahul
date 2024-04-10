@@ -6,6 +6,7 @@ import Contact from "./Contact";
 import Welcome from "./Welcome";
 import Services from "./Services";
 import Skill from "./Skill";
+import ContactPage from "./ContactForm";
 
 const Home = () => {
 
@@ -39,6 +40,8 @@ const Home = () => {
             <div className="mt-4" id="skillDiv">
                 <Skill />
             </div>
+
+           
 
             <div className={`${styles.container} container`} style={{
                 // backgroundColor: '#000', 																  /* Set initial properties */
@@ -111,6 +114,10 @@ const Home = () => {
             {/* <div className="container" id='connect-container'>
                 <Contact />
             </div> */}
+
+<div className="mt-5" id="contactDiv">
+                <ContactPage />
+            </div>
 
         </>
 

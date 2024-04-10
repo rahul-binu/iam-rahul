@@ -17,7 +17,7 @@ const App = () => {
                 <Route path='/' element={<Home />}></Route>
                 <Route path='/fade' element={<FadeInComponent />} ></Route>
                 {/* <Route path='/sp' element = {<Page />} ></Route> */}
-                <Route path="contact" element={<ContactPage />}></Route>
+                {/* <Route path="contact" element={<ContactPage />}></Route> */}
             </Routes>
             <Footer />
         </BrowserRouter>

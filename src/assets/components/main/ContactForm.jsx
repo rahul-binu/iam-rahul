@@ -62,9 +62,10 @@ function ContactPage() {
 
     return (
         <div className="container mt-5">
-            <div className="row">
-                <div className="col-lg-6 offset-lg-3">
-                    <h2>Contact Us</h2>
+            <div className="row ">
+                <div className="col-lg-6 offset-lg-3 text-center">
+                    <h2 className='display-3 text-center'>Contact </h2>
+                    <div className="heading-line mb-1"></div>
                     <form onSubmit={handleSubmit}>
                         <div className="mb-3">
                             <label htmlFor="name" className="form-label">Your Name</label>

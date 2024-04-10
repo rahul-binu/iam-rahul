@@ -27,14 +27,14 @@ const Skill = () => {
                             <div class="progress">
                                 <span class="skill">CSS <i class="val">90%</i></span>
                                 <div class="progress-bar-wrap">
-                                    <div class="progress-bar" role="progressbar" style={{ width: '100%' }}></div>
+                                    <div class="progress-bar" role="progressbar" style={{ width: '90%' }}></div>
                                 </div>
                             </div>
 
                             <div class="progress">
-                                <span class="skill">JavaScript <i class="val">75%</i></span>
+                                <span class="skill">JavaScript <i class="val">65%</i></span>
                                 <div class="progress-bar-wrap">
-                                    <div class="progress-bar" role="progressbar" style={{ width: '100%' }}></div>
+                                    <div class="progress-bar" role="progressbar" style={{ width: '65%' }}></div>
                                 </div>
                             </div>
 
@@ -43,23 +43,23 @@ const Skill = () => {
                         <div class="col-lg-6">
 
                             <div class="progress">
-                                <span class="skill">PHP <i class="val">80%</i></span>
+                                <span class="skill">Java <i class="val">50%</i></span>
                                 <div class="progress-bar-wrap">
-                                    <div class="progress-bar" role="progressbar" style={{ width: '100%' }}></div>
+                                    <div class="progress-bar" role="progressbar" style={{ width: '50%' }}></div>
                                 </div>
                             </div>
 
                             <div class="progress">
-                                <span class="skill">WordPress/CMS <i class="val">90%</i></span>
+                                <span class="skill">n <i class="val">40%</i></span>
                                 <div class="progress-bar-wrap">
-                                    <div class="progress-bar" role="progressbar" style={{ width: '100%' }}></div>
+                                    <div class="progress-bar" role="progressbar" style={{ width: '40%' }}></div>
                                 </div>
                             </div>
 
                             <div class="progress">
-                                <span class="skill">Photoshop <i class="val">55%</i></span>
+                                <span class="skill">n <i class="val">55%</i></span>
                                 <div class="progress-bar-wrap">
-                                    <div class="progress-bar" role="progressbar" style={{ width: '100%' }}></div>
+                                    <div class="progress-bar" role="progressbar" style={{ width: '55%' }}></div>
                                 </div>
                             </div>
 
