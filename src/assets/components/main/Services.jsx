@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import * as Icon from 'react-bootstrap-icons';
 
+import AOS from "aos";
+import 'aos/dist/aos.css'
+
 const Services = () => {
+
+    useEffect(() => {
+        AOS.init({duration:1000});
+    }, [])
+
     return (
         <>
             <section id="services" className="services">
@@ -32,8 +40,8 @@ const Services = () => {
                 {/* <!-- START THE CONTENT FOR THE SERVICES  --> */}
                 <div className="container">
                     {/* <!-- START THE WEB DEVELOPMENT CONTENT  --> */}
-                    <div className="row">
-                        <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 d-flex align-items-center">
+                    <div className="row" data-aos="fade-right">
+                        <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 d-flex align-items-center" >
                             <div className="services__content ">
                                 <div className="icon d-block fas fa-code service--icon">
                                     <Icon.CodeSlash />
@@ -55,7 +63,7 @@ const Services = () => {
                         </div>
                     </div>
                     {/* <!-- START THE CS CONTENT  --> */}
-                    <div className="row">
+                    <div className="row" data-aos="fade-left">
                         <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
                             <div className="services__pic">
                                 <img src="images/cyber.png" alt="cloud hosting illustration" className="img-fluid" />
@@ -78,7 +86,7 @@ const Services = () => {
                         </div>
                     </div>
                     {/* <!-- START THE Bussin CONTENT  --> */}
-                    <div className="row">
+                    <div className="row" data-aos="fade-right">
                         <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 d-flex align-items-center">
                             <div className="services__content">
                                 <div className="icon d-block fas fa-paper-plane mx-3 service--icon">

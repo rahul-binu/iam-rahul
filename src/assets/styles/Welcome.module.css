@@ -1,5 +1,6 @@
 .introSection {
-    background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+    background: linear-gradient(to right, rgba(154, 34, 246, 0.95), rgba(211, 9, 234, 0.95));
+    /* background: linear-gradient(to right, rgba(68, 0, 216, 0.656), rgb(75, 150, 249)); */
     padding: 10rem 0 0 0;
     height: 100%;
 }
@@ -11,6 +12,11 @@
 #button {
     background-color: rgba(255, 255, 255, 0.95);
     color: #000000; /* Matching text color */
+}
+
+#button:hover {
+    background-color: rgba(205, 59, 245, 0.95);
+    color: #ffffff; /* Matching text color */
 }
 
 .img_box {
