@@ -8,7 +8,7 @@ const Footer = () => {
 
         <>
             <footer className="footer">
-                <div className="container">
+                <div className="container" id="footer">
                     <div className="row">
                         {/* <!-- CONTENT FOR THE MOBILE NUMBER  --> */}
                         <div className="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">

@@ -17,11 +17,6 @@ const Header = () => {
         welcomeDivDiv.scrollIntoView({ behavior: 'auto' });
     }
 
-
-    // function handleContactClick() {
-    //     navigateTo('/contact');
-    // }
-
     function handleServiceClick() {
         // Get the target element
         const serviceDiv = document.getElementById('serviceDiv');
@@ -46,15 +41,9 @@ const Header = () => {
     }
 
     function handleContactClick() {
-        // Get the target element
-        const contactDiv = document.getElementById('contactDiv');
-        const targetPosition = contactDiv.offsetTop - 70; // Adjust the offset as needed
+        const footer = document.getElementById('footer');
 
-        // Scroll to the calculated position
-        window.scrollTo({
-            top: targetPosition,
-            behavior: 'smooth'
-        });
+        footer.scrollIntoView({ behavior: 'auto' });
     }
 
     function handleCertifiacteClick() {
