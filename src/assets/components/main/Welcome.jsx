@@ -25,8 +25,8 @@ const Welcome = () => {
                             </a>
                         </div>
 
-                        <div className="col-md-6 intros ">
-                            <div className={`video-box`}>
+                        <div className="col-md-6 intros " data-aos="zoom-in" >
+                            <div className={`${styles.video_box}`}>
                                 <img src="/images/programmer.webp" alt="" className={`${styles.img_box}`} />
                             </div>
                         </div>

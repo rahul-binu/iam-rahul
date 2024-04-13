@@ -21,7 +21,7 @@ const Footer = () => {
                                 </svg>
                             </div>
                             <div className="contact-box__info">
-                                <a className="contact-box__info--title">+91 859019926*</a>
+                                <a className="contact-box__info--title">+91 8590199265</a>
                                 <p className="contact-box__info--subtitle">  Mon-Fri 9am-6pm</p>
                             </div>
                         </div>
@@ -38,7 +38,7 @@ const Footer = () => {
                             </div>
                             <div className="contact-box__info">
                                 <a href="mailto:rahulbinu220@gmail.com" className="contact-box__info--title">rahulbinu220@gmail.com</a>
-                                <p className="contact-box__info--subtitle">Online support</p>
+                                <p className="contact-box__info--subtitle">Feel free</p>
                             </div>
                         </div>
                         {/* <!-- CONTENT FOR LOCATION  --> */}
@@ -66,7 +66,7 @@ const Footer = () => {
                     <div className="container">
                         <div className="row py-4 text-center text-white">
                             <div className="col-lg-5 col-md-6 mb-4 mb-md-0">
-                                connect with me on social media
+                                connect me on social media
                             </div>
                             <div className="col-lg-7 col-md-6">
                                 <Contact />

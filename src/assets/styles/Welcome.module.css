@@ -24,5 +24,8 @@
 .img_box {
     width: 80%;
     height: 80%;
-    /* display: none; */
+}
+
+.video_box img {
+    filter: drop-shadow(0 0 10px rgb(19, 10, 134)); /* Adjust the shadow color and blur radius as needed */
 }

@@ -198,3 +198,36 @@
   transition: 0.9s;
   background-color: #0563bb;
 }
+
+/* -----------------------------------------------
+#load measseges 
+--------------------------------------------------*/
+
+/* Message.css */
+.load-message {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #9a9898;
+  color: #000064;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-weight: bold;
+  font-size: 16px;
+  z-index: 1000;
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0;
+  border-radius: 25px;
+}
+
+.visible {
+  opacity: 1;
+}
+
+.hidden {
+  opacity: 0;
+}
