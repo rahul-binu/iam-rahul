@@ -2,20 +2,20 @@
 # Heding
 --------------------------------------------------------------*/
 .display-3--title {
-  color: rgba(143, 23, 234, 0.95);
+  color: rgba(22, 3, 106, 0.95);
   font-weight: bold;
   font-size: 25px;
 }
 
 .service--icon {
-  stroke: rgba(204, 0, 255, 0.753);
+  stroke: rgba(0, 35, 86, 0.753);
   /* Stroke color */
   stroke-width: 1;
   /* Stroke width */
   font-size: 40px;
   margin: 5px;
   font-weight: 900;
-  color: rgba(204, 0, 255, 0.753);
+  color: rgba(56, 11, 153, 0.753);
 }
 
 .border-end {
@@ -28,7 +28,7 @@
   height: 0.1rem;
   display: block;
   margin: 0 auto;
-  background-color: #9926f0;
+  background-color: #390363;
 }
 
 .heading-line::after {
@@ -39,7 +39,7 @@
   display: block;
   margin: 0 auto;
   margin-bottom: 1rem;
-  background-color: #9926f0;
+  background-color: #35025c;
 }
 
 /*--------------------------------------------------------------
@@ -57,7 +57,7 @@
 
 .contact-box__icon {
   width: 2rem;
-  stroke: #9926f0;
+  stroke: #c4a0e0;
   padding-top: 0.5rem;
 }
 

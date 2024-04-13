@@ -66,7 +66,7 @@ const Footer = () => {
                     <div className="container">
                         <div className="row py-4 text-center text-white">
                             <div className="col-lg-5 col-md-6 mb-4 mb-md-0">
-                                connect with us on social media
+                                connect with me on social media
                             </div>
                             <div className="col-lg-7 col-md-6">
                                 <Contact />

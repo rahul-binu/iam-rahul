@@ -1,6 +1,6 @@
 .introSection {
-    background: linear-gradient(to right, rgba(154, 34, 246, 0.95), rgba(211, 9, 234, 0.95));
-    /* background: linear-gradient(to right, rgba(68, 0, 216, 0.656), rgb(75, 150, 249)); */
+    /* background: linear-gradient(to right, rgba(154, 34, 246, 0.95), rgba(211, 9, 234, 0.95)); */
+    background: linear-gradient(to right, #00203FFF, rgb(12, 89, 165));
     padding: 10rem 0 0 0;
     height: 100%;
 }
@@ -11,12 +11,14 @@
 
 #button {
     background-color: rgba(255, 255, 255, 0.95);
-    color: #000000; /* Matching text color */
+    color: #000000;
+    border-color: #ffffff;
 }
 
 #button:hover {
-    background-color: rgba(205, 59, 245, 0.95);
-    color: #ffffff; /* Matching text color */
+    background-color: rgba(30, 3, 120, 0.95);
+    color: #ffffff;
+    /* Matching text color */
 }
 
 .img_box {

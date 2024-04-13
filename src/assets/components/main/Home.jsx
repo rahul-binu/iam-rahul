@@ -43,13 +43,13 @@ const Home = () => {
                 <Services />
             </div>
 
-            <div className="mt-4" id="skillDiv">
+            <div className="mt-4 mb-5" id="skillDiv">
                 <Skill />
             </div>
-
+{/* 
             <div className="mt-5" id="contactDiv">
                 <ContactPage />
-            </div>
+            </div> */}
 
         </>
 

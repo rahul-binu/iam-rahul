@@ -13,12 +13,11 @@ const Header = () => {
     function handleWelocmeClick() {
         // Get the target element
         const welcomeDivDiv = document.getElementById('welcomeDiv');
-    
-        // Scroll to the target element
-        welcomeDivDiv.scrollIntoView({ behavior: 'smooth' });
+
+        welcomeDivDiv.scrollIntoView({ behavior: 'auto' });
     }
 
-    
+
     // function handleContactClick() {
     //     navigateTo('/contact');
     // }
@@ -40,7 +39,6 @@ const Header = () => {
         const skillDiv = document.getElementById('skillDiv');
         const targetPosition = skillDiv.offsetTop - 70; // Adjust the offset as needed
 
-        // Scroll to the calculated position
         window.scrollTo({
             top: targetPosition,
             behavior: 'smooth'
@@ -58,7 +56,7 @@ const Header = () => {
             behavior: 'smooth'
         });
     }
-    
+
 
     return (
         <Navbar expand="lg" className={`${styles.navbar} shadow position-fixed w-100`}>
@@ -83,11 +81,6 @@ const Header = () => {
                     <Nav.Link className={`text-light mx-2`} onClick={handleSkillClick}>
                         <p className={`${styles.links}`}>
                             Skills
-                        </p>
-                    </Nav.Link>
-                    <Nav.Link className={'text-light mx-2'}>
-                        <p className={`${styles.links}`}>
-                            About
                         </p>
                     </Nav.Link>
                     <Nav.Link className={'text-light mx-2'} onClick={handleContactClick}>
