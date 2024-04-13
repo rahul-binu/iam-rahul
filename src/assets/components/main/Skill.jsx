@@ -47,21 +47,21 @@ const Skill = () => {
                         <div className="col-lg-6">
 
                             <div className="progress">
-                                <span className="skill">Java <i className="val">50%</i></span>
+                                <span className="skill">php <i className="val">50%</i></span>
                                 <div className="progress-bar-wrap">
                                     <div className="progress-bar" role="progressbar" style={{ width: '50%' }}></div>
                                 </div>
                             </div>
 
                             <div className="progress">
-                                <span className="skill">n <i className="val">40%</i></span>
+                                <span className="skill">Java<i className="val">40%</i></span>
                                 <div className="progress-bar-wrap">
                                     <div className="progress-bar" role="progressbar" style={{ width: '40%' }}></div>
                                 </div>
                             </div>
 
                             <div className="progress">
-                                <span className="skill">n <i className="val">55%</i></span>
+                                <span className="skill">Git <i className="val">55%</i></span>
                                 <div className="progress-bar-wrap">
                                     <div className="progress-bar" role="progressbar" style={{ width: '55%' }}></div>
                                 </div>

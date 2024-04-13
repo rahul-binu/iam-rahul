@@ -57,6 +57,18 @@ const Header = () => {
         });
     }
 
+    function handleCertifiacteClick() {
+        // Get the target element
+        const certificateDiv = document.getElementById('certificateDiv');
+        const targetPosition = certificateDiv.offsetTop - 70; // Adjust the offset as needed
+
+        // Scroll to the calculated position
+        window.scrollTo({
+            top: targetPosition,
+            behavior: 'smooth'
+        });
+    }
+
 
     return (
         <Navbar expand="lg" className={`${styles.navbar} shadow position-fixed w-100`}>
@@ -81,6 +93,11 @@ const Header = () => {
                     <Nav.Link className={`text-light mx-2`} onClick={handleSkillClick}>
                         <p className={`${styles.links}`}>
                             Skills
+                        </p>
+                    </Nav.Link>
+                    <Nav.Link className={`text-light mx-2`} onClick={handleCertifiacteClick}>
+                        <p className={`${styles.links}`}>
+                            Certifications
                         </p>
                     </Nav.Link>
                     <Nav.Link className={'text-light mx-2'} onClick={handleContactClick}>

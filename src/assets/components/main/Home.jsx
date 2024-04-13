@@ -10,6 +10,7 @@ import ContactPage from "./ContactForm";
 
 import 'aos/dist/aos.css';
 import AOS from 'aos';
+import Certifications from "./Certifications";
 
 const Home = () => {
     useEffect(() => {
@@ -46,10 +47,10 @@ const Home = () => {
             <div className="mt-4 mb-5" id="skillDiv">
                 <Skill />
             </div>
-{/* 
-            <div className="mt-5" id="contactDiv">
-                <ContactPage />
-            </div> */}
+
+            <div className="mt-4 mb-5" id='certificateDiv'>
+                <Certifications />
+            </div>
 
         </>
 
