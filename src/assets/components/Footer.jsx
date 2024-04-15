@@ -37,7 +37,7 @@ const Footer = () => {
                                 </svg>
                             </div>
                             <div className="contact-box__info">
-                                <a href="mailto:rahulbinu220@gmail.com" className="contact-box__info--title">rahulbinu220@gmail.com</a>
+                                <a href="mailto:iamrahulbinu@gmail.com" className="contact-box__info--title">iamrahulbinu@gmail.com</a>
                                 <p className="contact-box__info--subtitle">Feel free</p>
                             </div>
                         </div>
